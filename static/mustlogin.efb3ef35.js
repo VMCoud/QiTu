@@ -1,0 +1,1 @@
+import{al as t,u as e,am as n}from"./entry.f3a6b6f6.js";import{u as s}from"./counter.8b7d25a0.js";const l=t((u,a)=>{const o=e("token");if(s().setting.is_must_login=="1"&&!o.value)return n("/login")});export{l as default};

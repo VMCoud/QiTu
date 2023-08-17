@@ -1,0 +1,1 @@
+import{aC as t,aD as e}from"./entry.f3a6b6f6.js";const i=t("counter",{state:()=>({setting:{}}),actions:{increment(){this.setting}},getters:{doubleCount(){return this.setting}},persist:{storage:e.cookiesWithOptions({sameSite:"strict"}),paths:["setting"]}});export{i as u};
